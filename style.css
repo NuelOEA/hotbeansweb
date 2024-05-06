@@ -1,0 +1,487 @@
+/* Code entirely written by NuelOEA */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --textwhite: #f5f5f5;
+    --text: #6B6B6B;
+    --secondary-color: #B38B00;
+    --primary-color: #FFA500;
+    --hover-primary: #e69705;
+    --secondary-bg: #FDF8F2;
+    --textblack: #101010;
+}
+::selection {
+    background: var(--primary-color);
+    color: #f5f5f5;
+}
+
+/* .menu-items ul li a:hover{
+    border-bottom: 4px solid var(--primary-color);
+    transition: ease-in-out;
+} */
+.hamburger{
+    display: none;
+}
+
+.cta-btn{
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+    color: var(--textwhite);
+}
+
+.section-1{
+    height: 87vh;
+    background-color: var(--text);
+    background-image: url("assets/hero_img.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--textwhite);
+}
+.section-1 div{
+    /* border: 1px yellow solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-1 .heading{
+    /* border: 1px red solid; */
+    text-align: center;
+    padding: 0 30px 0 30px;
+}
+.section-1 h1{
+    text-align: center;
+}
+.section-1 p{
+    text-align: center;
+}
+
+.section-1 .paragraph{
+    /* border: 1px red solid; */
+    text-align: center;
+    padding: 48px 140px 0 140px;
+    margin-bottom: 72px;
+}
+
+.hero-btn{
+    /* border: 1px red solid; */
+    text-align: center;
+    margin: auto;
+}
+
+
+.section-2{
+    background-color: var(--secondary-bg);
+}
+.section-2 main{
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    height: auto;
+    /* justify-content: space-between; */
+}
+.section-2 .main-1 img{
+    width: 100%;
+    height: auto;
+    margin-left: 59px;
+    /* width: clamp(17.8125rem, 12.847vw + 13.702rem, 31.25rem); */
+    border-radius: 12px;
+}
+.section-2 .main-2 img{
+    width: 100%;
+    height: auto;
+    margin-right: 59px;
+    /* width: clamp(17.8125rem, 12.847vw + 13.702rem, 31.25rem); */
+    border-radius: 12px;
+}
+
+.section-2 .main-1 .left-container{
+    /* border: 1px yellow solid; */
+    margin-right: 59px;
+}
+
+
+.section-2 .main-2{
+    /* border: 1px red solid; */
+    padding-top: 130px;
+}
+
+.section-2 .main-2 .right-container{
+    margin-left: 59px;
+}
+
+/* .card .img img{
+    max-width: 300px;
+} */
+
+/* .section-3 .card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 24px;
+    padding-top: 72px;
+}
+.card-container .card{
+    padding: 16px;
+    border-radius: 12px;
+    background-color: var(--textwhite);
+    cursor: pointer;
+}
+.card-container .card img{
+    border-radius: 12px;
+    width: 100%;
+}
+.card-container .card:hover{
+    background-color: var(--primary-color);
+    color: var(--textwhite);
+    transition: ease-in-out .4s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+} */
+
+
+/* .details{
+    margin-top: 32px;
+    margin-bottom: 12px;
+} */
+
+
+.section-4 .container{
+    background-color: #6B6B6B;
+    height: 488px;
+    border-radius: 12px;
+    background: url("assets/web_devs_coding_as_a_team.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 19px 12px 32px;
+}
+.section-4 .container .left-container{
+    margin-right: 49px;
+}
+.section-4 .container .left-container h2{
+    font-size: clamp(1.375rem, 1.554vw + 0.878rem, 3rem);
+}
+.section-4 .container .right-container{
+    margin-left: 49px;
+}
+
+.course-container{
+    padding-top: 72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+/* .course-details{
+    filter: blur(4px);
+}
+.course-details:hover{
+    filter: blur(0px);
+} */
+.course-details img{
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+}
+
+
+
+
+.section-6{
+    background-color: var(--secondary-bg);
+    padding-bottom: 100px;
+}
+
+/* .form{
+    height: auto;
+    width: 100%;
+    padding-top: 72px;
+} */
+
+/* .form .form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 24px;
+} */
+
+/* #field-flex{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+} */
+/* #field-flex label{
+    font-family: 'Jost';
+    color: #B38B00;
+} */
+
+/* #field-flex input{
+    width: 100%;
+    height: 48px;
+    outline: none;
+    margin-top: 12px;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0 16px;
+} */
+/* .message-box{
+    margin-top: 24px;
+} */
+/* .message-box textarea{
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+    outline: none;
+} */
+/* .submit-btn{
+    height: auto;
+    margin-top: 24px;
+} */
+/* .submit-btn input{
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    color: var(--textwhite);
+    transition: ease-in .5s;
+    border: none;
+} */
+
+
+/* -------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------- */
+
+/* About Us Page */
+
+.about-section-1{
+    height: 70vh;
+    background-color: var(--text);
+    background-image: url("assets/about_herobg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--textwhite);
+    text-align: center;
+}
+
+.main-3 .content-container{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 130px;
+}
+
+.main-3 .content-container .left-content{
+    /* border: 1px red solid; */
+    margin-right: 59px;
+}
+.main-3 .content-container .right-content{
+    margin-left: 59px;
+}
+.section-2 .main-3-container{
+    background-color: #6B6B6B;
+    height: 488px;
+    border-radius: 12px;
+    background: url("assets/webdevs_team_solving\ _problem.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 88px;
+}
+.section-8{
+    background-color: var(--secondary-bg);
+    padding-bottom: 100px;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------- */
+
+/* Careers Page */
+
+.career-section-1{
+    height: 70vh;
+    background-color: var(--text);
+    background-image: url("assets/two_men_shake_hands.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--textwhite);
+    text-align: center;
+}
+
+.accordion-section{
+    margin-bottom: 70px;
+    /* padding: 0 28px 0 28px; */
+}
+.accordion-box{
+    width: 100%;
+
+}
+.accordion-trigger-heading{
+    width: 100%;
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    border: none;
+    display: flex;
+    /* gap: 16px; */
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* border: 1px red solid; */
+}
+/* .accordion-trigger-heading h2{
+    font-size: 22.5px;
+} */
+.accordion-svg-icon {
+transition: transform 0.5s;
+}
+
+.accordion-box[open] .accordion-svg-icon {
+transform: rotate(45deg);
+}
+.accordion-content{
+    padding-bottom: 48px;
+}
+.accordion-content .job-container:first-child{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid; 
+    padding: 24px 0 24px 0;
+}
+.accordion-content .job-container{
+    border-bottom: 1px black solid; 
+    padding: 24px 0 24px 0;
+}
+/* .accordion-content .job-container:last-child{
+    border-bottom: 0px; 
+    padding: 24px 0 12px 0;
+} */
+
+.job-container .job-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.job-container .job-descr{
+    width: 75%;
+}
+
+.course-section-1{
+    height: 70vh;
+    background-color: var(--text);
+    background-image: url("assets/courses_hero_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--textwhite);
+    text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------- */
+
+/* Courses Page */
+
+.section-10{
+    margin-top: 72px;
+    background-color: var(--secondary-bg);
+    padding-bottom: 100px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------- */
+
+/* Application Page */
+.application-section-1{
+    height: 70vh;
+    background-color: var(--text);
+    background-image: url("assets/courses_hero_bg.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--textwhite);
+    text-align: center;
+}
+.section-11{
+    background-color: transparent;
+}
+
+/* input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+} */
+
+/* .section-11 .upload-cv{
+    border: 1px solid red;
+} */
+
+
+.upload-cv{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.upload-cv label{
+    font-family: 'Jost';
+    color: #B38B00;
+}
+
+.input-cont{
+    /* border: purple 1px solid; */
+    display: flex;
+    justify-content:end;
+    padding: 16px;
+    background-color: #FFF1BF;
+    margin-top: 16px;
+}
+
+.upload-cv input{
+    width: 30%;
+    outline: none;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    padding: 0;
+}
